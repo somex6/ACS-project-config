@@ -1,6 +1,6 @@
 #!/bin/bash
 yum install -y nginx
-touch healthstatus
+touch /healthstatus
 systemctl start nginx
 systemctl enable nginx
 git clone https://github.com/somex6/ACS-project-config.git
